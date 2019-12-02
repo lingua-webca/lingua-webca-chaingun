@@ -1,1 +1,1 @@
-export * from './lib/number';
+export { ChainGunLinguaStore } from "./ChainGunLinguaStore"

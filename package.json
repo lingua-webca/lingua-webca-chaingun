@@ -1,11 +1,11 @@
 {
   "name": "@lingua-webca/chaingun",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "ChainGun support for Lingua Webca",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/go1dfish/@lingua-webca/chaingun",
+  "repository": "https://github.com/lingua-webca/lingua-webca-chaingun.git",
   "license": "MIT",
   "keywords": [],
   "scripts": {
@@ -50,7 +50,11 @@
   "engines": {
     "node": ">=8.9"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@chaingun/http-adapter": "^0.4.1",
+    "@chaingun/types": "^0.0.3",
+    "uri-js": "^4.2.2"
+  },
   "devDependencies": {
     "@bitjson/npm-scripts-info": "^1.0.0",
     "@bitjson/typedoc": "^0.15.0-0",
@@ -85,7 +89,8 @@
     }
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": true,
+    "semi": false
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
