@@ -324,10 +324,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/nyc-config-typescript/-/nyc-config-typescript-0.1.3.tgz#944d15b3ebdb71f963a628daffaa25ade981bb86"
   integrity sha512-EzRFg92bRSD1W/zeuNkeGwph0nkWf+pP2l/lYW4/5hav7RjKKBN5kV1Ix7Tvi0CMu3pC4Wi/U7rNisiJMR3ORg==
 
-"@lingua-webca/core@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@lingua-webca/core/-/core-0.0.1.tgz#239437fc4bcce750f6b4aeb6c7239f94afcc8e7c"
-  integrity sha512-a+bNm5R633JgPAhRauLOo8T+TmCEBFQ5Lpf8xoiNxC8BCYZSHAEnyMGr5BmZC+rU7CEV/RqLIicjFNREK2eXhQ==
+"@lingua-webca/core@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@lingua-webca/core/-/core-0.0.2.tgz#568fe6bce0b1965ccdf5b0cefd51fe76c1716bc5"
+  integrity sha512-QU9TTuPKRSy1Ql9X/LjsVddH2J9VQwQJZUIAUYfGL/xb717IXfzmDpTDwDOqQSyo4OL3xoGPocuOm3+7A+V2tA==
   dependencies:
     "@types/route-parser" "^0.1.3"
     route-parser "^0.0.5"

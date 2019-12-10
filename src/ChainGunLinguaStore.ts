@@ -35,7 +35,7 @@ export function createSpecificStore(
   }
 
   app.get('*soul', async (req, res) => {
-    const node = await adapter.get(req.params.soul)
+    const node = await adapter.get(decodeURI(req.params.soul))
     res.json(node)
   })
 
