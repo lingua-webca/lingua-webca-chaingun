@@ -90,6 +90,12 @@ export function createSpecificStore(
     res.json({ ok: true })
   })
 
+  app.get('/key/*key/from_node/*soul', async (req, res) => {
+    const { key, soul } = req.params
+    const node = await adapter.get(decodeURI(soul), { '.': decodeURI(key) })
+    res.json(node)
+  })
+
   app.get('/*soul', async (req, res) => {
     const node = await adapter.get(decodeURI(req.params.soul))
     res.json(node)
